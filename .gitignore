@@ -1,0 +1,5 @@
+venv
+generated_files
+models
+*.wav
+__pycache__

@@ -1,0 +1,19 @@
+version: '3'
+services:
+  mekatron-cpu:
+    build: .
+    container_name: mekatron-cpu
+    ports:
+      - "6969:6969"
+    # environment:
+    #   - VIRTUAL_HOST
+    #   - LETSENCRYPT_HOST
+    #   - VIRTUAL_PORT
+    # networks:
+    #   - net
+    volumes:
+      - ./models:/app/models
+    
+# networks:
+#   net:
+#     external: true
