@@ -1,0 +1,6 @@
+[submodule "mekatron2"]
+	path = mekatron2
+	url = https://github.com/patryk025/mekatron2.git
+[submodule "hifi-gan"]
+	path = hifi-gan
+	url = https://github.com/jik876/hifi-gan.git
